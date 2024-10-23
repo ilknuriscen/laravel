@@ -38,20 +38,20 @@
 </head>
 <body>
 <header>
-    Çanakkale Teknik Bilimler - MYO
+   <h2>Çanakkale Teknik Bilimler - MYO</h2>
 </header>
 <nav>
     <ul>
-        <li><a href="/">Ana sayfa</a></li>
-        <li><a href="/contact">İletişim</a></li>
-        <li><a href="/about">Hakkimizda</a></li>
+        <li><a href="/"><h3>Ana sayfa</h3></a></li>
+        <li><a href="/contact"><h3>İletişim</h3></a></li>
+        <li><a href="/about"><h3>Hakkımızda</h3></a></li>
     </ul>
 </nav>
 <main>
     @yield('main')
 </main>
 <footer>
-    Copyright &copy; 2024 - Çanakkale teknik bilimler
+    <h4> Copyright &copy; 2024 - Çanakkale Teknik Bilimler </h4>
 </footer>
  <div class="bottom-message"></div>
 @yield('bottom-message')

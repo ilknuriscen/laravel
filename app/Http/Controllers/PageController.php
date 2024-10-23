@@ -14,8 +14,5 @@ class PageController extends Controller
     {
         return view('about'); // hakkimizda
     }
-    public function contact()
-    {
-        return view('contact'); // iletisim
-    }
+
 }
